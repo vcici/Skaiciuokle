@@ -2,7 +2,7 @@ const output:HTMLElement|null = document.getElementById("atsakymas");
 const btSkaiciuoti = document.getElementById("skaiciuoti");
 let cm = <HTMLInputElement> document.getElementById("cm");
 
-const coliai = (cm) => {
+const coliai = (cm:number) => {
     return cm * 0.39370;
 }
 
